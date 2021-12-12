@@ -1,0 +1,67 @@
+name: web3wallet_ui
+description: Common used Widgets for Web3 Wallet app.
+version: 0.1.0
+homepage: https://setheum.xyz
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.23.0+1
+  permission_handler: ^7.2.0
+  dropdown_search: ^0.6.3
+  url_launcher: ^6.0.4
+  intl: ^0.17.0
+  qr_flutter_fork: ^4.0.0
+  flutter_qr_scan: ^1.0.7
+  web3wallet_sdk: ^0.1.01
+#  web3wallet_sdk:
+#    path: ../sdk
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  assets:
+   - assets/images/polkadot_avatar.png
+   - assets/images/success.png
+   - assets/images/error.png
+   - assets/images/copy.png
+   - assets/images/scan.svg
+   - assets/images/app.png
+   - assets/images/receive_line.png
+
+  # For details regarding assets in packages, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  #
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # To add custom fonts to your package, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts in packages, see
+  # https://flutter.dev/custom-fonts/#from-packages
